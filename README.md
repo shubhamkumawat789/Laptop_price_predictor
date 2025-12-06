@@ -120,7 +120,6 @@ A Pipeline with:
 
 
 📁 5. Project Structure
-.
 ├── app.py                      # Streamlit application
 ├── laptop-price-predictor.ipynb
 ├── laptop_data.csv             # Raw dataset
