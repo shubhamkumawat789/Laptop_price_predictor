@@ -118,25 +118,14 @@ A Pipeline with:
 - XGBRegressor with tuned hyperparameters
 - Saved using Pickle (pipe.pkl).
 
-
-📁 5. Project Structure
-- app.py                      # Streamlit application
-- laptop-price-predictor.ipynb
-- laptop_data.csv             # Raw dataset
-- pipe.pkl                    # Trained ML pipeline
-- df.pkl                      # Processed dataset
-- requirements.txt
-- README.md
-- Dockerfile                  # Dockerfile
-- 
-⚠️ 6. Challenges Faced
+⚠️ 5. Challenges Faced
 - Parsing and normalizing messy textual data (Memory, CPU, Resolution)
 - Handling rare categories without causing model bias
 - Preventing overfitting on high-cardinality categorical features
 - Maintaining consistent preprocessing between training & deployment
 - Tuning XGBoost without overcomplicating the model
 
-🎓 7. Learnings & Takeaways
+🎓 6. Learnings & Takeaways
 - Real-world datasets require heavy feature engineering
 - Pipelines ensure clean deployment and reproducibility
 - XGBoost is powerful for structured/tabular data
