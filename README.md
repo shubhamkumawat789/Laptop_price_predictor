@@ -120,14 +120,15 @@ A Pipeline with:
 
 
 📁 5. Project Structure
-├── app.py                      # Streamlit application
-├── laptop-price-predictor.ipynb
-├── laptop_data.csv             # Raw dataset
-├── pipe.pkl                    # Trained ML pipeline
-├── df.pkl                      # Processed dataset
-├── requirements.txt
-└── README.md
-
+- app.py                      # Streamlit application
+- laptop-price-predictor.ipynb
+- laptop_data.csv             # Raw dataset
+- pipe.pkl                    # Trained ML pipeline
+- df.pkl                      # Processed dataset
+- requirements.txt
+- README.md
+- Dockerfile                  # Dockerfile
+- 
 ⚠️ 6. Challenges Faced
 - Parsing and normalizing messy textual data (Memory, CPU, Resolution)
 - Handling rare categories without causing model bias
