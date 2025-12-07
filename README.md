@@ -1,18 +1,18 @@
-💻 Laptop Price Predictor — Machine Learning Project
+# 💻 Laptop Price Predictor — Machine Learning Project
 A machine learning project that predicts laptop prices using hardware specifications such as brand, CPU, RAM, storage type, GPU, and display features. This end-to-end system includes data cleaning, feature engineering, model training, evaluation, and a Streamlit web app for live predictions.
 
-🧩 1. Problem / Objective
+# 🧩 1. Problem / Objective
 Laptop prices vary widely depending on hardware specs, build quality, brand value, and technology features.
 Consumers often struggle to estimate whether a laptop is fairly priced.
 
-🎯 Objective
+# 🎯 Objective
 Build a machine learning model that can predict the price of a laptop using its specifications.
 This helps in:
 - Assisting buyers in identifying fair prices
 - Helping sellers price their products correctly
 - Supporting e-commerce platforms with automated valuation
 
-📊 2. Dataset Description
+# 📊  Dataset Description
 Dataset used: laptop_data.csv
 
 Key Columns:
@@ -30,7 +30,7 @@ Price – Target variable
 
 The dataset contained complex textual fields requiring extensive preprocessing.
 
-🧰 3. Tools & Techniques Used
+# 🧰 Tools & Techniques Used
 
 🔧 Technologies:
 Python
@@ -50,7 +50,7 @@ Regression Modeling
 Pipeline Creation
 Model Serialization
 
-🔄 4. Process Breakdown
+# 🔄 Process Breakdown
 
 Step 1 — Data Cleaning
 - Removed extra characters (“GB”, ".0")
@@ -118,14 +118,14 @@ A Pipeline with:
 - XGBRegressor with tuned hyperparameters
 - Saved using Pickle (pipe.pkl).
 
-⚠️ 5. Challenges Faced
+# ⚠️  Challenges Faced
 - Parsing and normalizing messy textual data (Memory, CPU, Resolution)
 - Handling rare categories without causing model bias
 - Preventing overfitting on high-cardinality categorical features
 - Maintaining consistent preprocessing between training & deployment
 - Tuning XGBoost without overcomplicating the model
 
-🎓 6. Learnings & Takeaways
+# 🎓 6. Learnings & Takeaways
 - Real-world datasets require heavy feature engineering
 - Pipelines ensure clean deployment and reproducibility
 - XGBoost is powerful for structured/tabular data
